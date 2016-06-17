@@ -61,7 +61,7 @@ Puedes ver el mapa base que he creado para este ejercicio en el siguiente **[lin
 Para agregar nuestro estilo al plugin *QuickMapService* en QGis, debes primero (antes de abrir el programa QGis) a la carpeta en donde descargaste QGis en tu ordenador. En mi caso dicha ruta es *"Users>CrisHMill>QGis2>QuickMapService"*. En dicha carpeta encontrarás dos subcarpetas que contienen los mapa base alojados en QuickMapService. Nos centraremos en la carpeta *"User"* que es el lugar en donde alojaremos nuestro estilo. 
 
 Para efecto de resumir este tutorial puedes aprender en detalle como realizar este paso en el [muy buen video tutorial preparado por "QGis Tips"](https://www.youtube.com/watch?v=VChSVZbZSR0). Por otro lado puedes descargar los archivos necesarios que ya he preparado aquí, y solo pegarlos en las carpetas correspondientes como te explicaré a continuación:
-- Descarga las carpetas con el estilo Madrid_IOS7 [aquí]()
+- Descarga las carpetas con el estilo Madrid_IOS7 [aquí](https://github.com/crishernandezmaps/TutorialMapaBase)
 - Abre en el procesador de texto que prefieras los archivos *Metadata* y *Madrid_IOS7*. Deberías ver lo siguiente:
 ![](https://c4.staticflickr.com/8/7733/27652131571_09ae6735ee_z.jpg)
 ![](https://c8.staticflickr.com/8/7471/27652131791_3f22fbf269_z.jpg)
@@ -69,7 +69,7 @@ Para efecto de resumir este tutorial puedes aprender en detalle como realizar es
 
 > NOTA: puedes dejar la url tal como está y ocupar el estilo que yo he creado por esta vez, si es que solamente deseas probar esta funcionalidad. ;)
 
-- El paso final es insertar o pegar las carpetas *"Madrid_IOS7"* en las carpetas correspondientes en QuickMapService, a saber: "Data Source" y "Group". Al descargar los archivos (link a la descarga), habrán notado que hay una imagen para cada uno de ellos. En este caso el logo de "No Solo SIG". Dicha imagen será que el ícono que luego veremos en QGis par activar nuestro mapa base. El orden para agregar nuestros archivos a QuickMapService es el siguiente: (i) La carpeta "Madrid_IOS7" que contiene los archivos "Madrid_IOS7.ini y LogoNoSoloSIG.png" pegar en la carpeta que se encuentra en la ruta QuickMapServive/User/Group; (ii) La carpeta "Madrid_IOS7" que contiene los archivos "Metadata.ini y LogoNoSoloSIG.png" pegar en QuickMapService/USer/Data Source. El resultado debiese ser el siguiente:
+- El paso final es insertar o pegar las carpetas *"Madrid_IOS7"* en las carpetas correspondientes en QuickMapService, a saber: "Data Source" y "Group". Al descargar los archivos ([link a la descarga](https://github.com/crishernandezmaps/TutorialMapaBase)), habrán notado que hay una imagen para cada uno de ellos. En este caso el logo de "No Solo SIG". Dicha imagen será que el ícono que luego veremos en QGis par activar nuestro mapa base. El orden para agregar nuestros archivos a QuickMapService es el siguiente: (i) La carpeta "Madrid_IOS7" que contiene los archivos "Madrid_IOS7.ini y LogoNoSoloSIG.png" pegar en la carpeta que se encuentra en la ruta QuickMapServive/User/Group; (ii) La carpeta "Madrid_IOS7" que contiene los archivos "Metadata.ini y LogoNoSoloSIG.png" pegar en QuickMapService/USer/Data Source. El resultado debiese ser el siguiente:
 
 ![groups](https://c2.staticflickr.com/8/7559/27653026811_6b192dec0d_o.png)
 ![data source](https://c2.staticflickr.com/8/7274/27653026691_085468a674_o.png)
